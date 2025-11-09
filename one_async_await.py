@@ -17,7 +17,7 @@ def sync_func():
 
 #асинхронная функция, вернёт объект корутины (<coroutine object async_func at 0x7f823f8b2610>)
 async def async_func():
-    return
+    ...
 
 async def main():
     print(get_docs())
