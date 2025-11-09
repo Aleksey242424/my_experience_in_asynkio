@@ -4,9 +4,9 @@
 async это маркер для питона что функция возвращает не обычные значения, а корутину<br>
 <i>file: one_async_await.py</i>
 <code>
-#синхронная функция, вернёт 777<br>
-def sync_func():<br>
-    return 777<br>
+#синхронная функция, вернёт 777
+def sync_func():
+    return 777
 #асинхронная функция, вернёт объект корутины (&lt;coroutine object async_func at 0x7f823f8b2610&gt;)
 async def async_func():
     return
